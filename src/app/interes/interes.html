@@ -1,0 +1,30 @@
+ <!-- Interests-->
+            <section class="resume-section" id="interes">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Ejercicio para Mostrar Productos</h2>
+                    <p>Descripción del Proceso: Visualizar datos guardados en la tabla “productos”</p>
+                    <p class="mb-0">rObjetivo:
+                        Permitir al usuario o sistema consultar y visualizar la información almacenada en la tabla productos de la base de datos, mostrando todos los registros o uno específico según sea requerido</p>
+                        <p></p>
+                        <p></p>
+                    <table class="tabla-productos">
+                         <thead>
+                           <tr>
+                            <th>nombre</th>
+                            <th>precio</th>
+                            <th>categoriaID</th>
+                           </tr>
+                         </thead>
+                         <tbody>
+                            <tr *ngFor="let p of productos">
+                               <td>{{p.nombre }}</td>
+                               <td>{{ p.precio }}</td>
+                               <td>{{p.categoria.nombre}}</td>
+                            </tr>
+                         </table>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+   
+            
