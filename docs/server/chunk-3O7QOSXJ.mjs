@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{o as a}from"./chunk-6LC2I3JE.mjs";import{K as e,O as o}from"./chunk-46EGPQ76.mjs";var i=class t{constructor(r){this.http=r}base="http://127.0.0.1:8000/api/productos";listaproducto(){return this.http.get(this.base)}crearProducto(r){return this.http.post(this.base,r)}static \u0275fac=function(n){return new(n||t)(o(a))};static \u0275prov=e({token:t,factory:t.\u0275fac,providedIn:"root"})};export{i as a};

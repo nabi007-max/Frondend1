@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-beasties-container><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><base href="https://nabi007-max.github.io/Frondend1/">
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><base href="https://nabi007-max.github.io/Frondend1/">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content>
@@ -23,4 +23,4 @@
 <link rel="modulepreload" href="chunk-KOGCYKPO.js">
 
 
-<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"29":[{"i":"c3718116818","r":1}]}},{"c":{"0":[{"i":"c1365454303","r":1}]}}]}</script></body></html>
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"29":[{"i":"c3718116818","r":1}]}},{"c":{"0":[{"i":"c1365454303","r":1}]}}]}</script></body></html>`;
